@@ -1,0 +1,225 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bolim1{background-image: url(../../assets/rasm1.png); width: 100%; height: 450px;background-repeat: no-repeat;padding: 0px;}
+.tag31{font-size: 50px; font-weight: 700;color: #274C5B;text-align: center;}
+/* bolim2 */
+.bolim2{display: flex;align-items: center;margin-top: 68px; gap: 39px;}
+.tag32{font-size: 36px; font-weight: 400; color: #7EB693;line-height: 100%;margin-bottom: 8px;}
+.tag33{font-size: 50px; font-weight: 800; color: #274C5B;line-height: 100%;margin-bottom: 14px;}
+.tag34{font-size: 18px; font-weight: 400; color: #525C60;line-height: 165%;margin-bottom: 20px;}
+.tag35{font-size: 18px; font-weight: 400; color: #525C60;line-height: 165%;margin-bottom: 20px;}
+.oldwrapicons{display: flex;gap: 65px;align-items: center;margin-top: 48px;}
+.old1{display: flex; align-items: center;gap: 15px;}
+.tag36{font-size: 25px; font-weight: 500;color: #274C5B;line-height: 100%;}
+.bolim2 img {max-width: 100%;height: auto;display: block;}
+/* bomi3 */
+.bolim3{   padding: 80px 0; width: 100%; height: auto; background-color: #F9F8F8;margin-top: 3px; display: flex;gap: 51px; align-items: center;justify-content: center;}
+.wrapdiv{display: flex;align-items: center;gap: 7px;padding: 29px 91px 39px 27px ; background-color: #ECECEC; border-radius: 49px;border: none; margin-bottom: 12px;margin-top: 24px;}
+.tag40{font-size: 20px; font-weight: 500; color: #274C5B;line-height: 100%;}
+.whitecard{width: 257px; height: 335px; border-radius: 30px; border: none; background-color: #FFFFFF;display: block;}
+/* bolim4 */
+.bolim4{text-align: center; margin-top: 177px;padding: 0px 20px;}
+.three{width: 449px; height: 615px;background-color: #F9F8F8;border-radius: 30px;  padding-bottom: 30px;}
+.wrap-icon{display: flex;gap: 20px;}
+.old-wrap{display: flex;align-items: center;justify-content: space-between;padding: 0 30px;margin-top: 5px; text-align: center;}
+.tag41{font-size: 25px; font-weight: 800; color: #274C5B;margin-top: 35px;}
+.tag41{font-size: 25px; font-weight: 800; color: #274C5B;}
+.three1{width: 449px; height: 615px;background-color: #FFFFFF;border-radius: 30px;  padding-bottom: 30px; }
+.threewrap{display: flex;gap: 27px; justify-content: center; margin-top: 42px; flex-wrap: wrap;}
+.three img,
+.three1 img {max-width: 100%;border-radius: 30px 30px 0 0;}
+/* bolim5 */
+.bolim5{width: 100%;  background-color: #274C5B;margin-top: 202px; text-align: center; display: flex;align-items: center;justify-content: center;  padding: 100px 20px;}
+.four-card-wrap{display: flex;gap: 21px;justify-content: center;text-align: center; margin-top: 33px;   flex-wrap: wrap;}
+.tag42{font-size: 25px; font-weight: 500; color: #FFFFFF;margin-top: 24px;}
+.four-card{border-radius: 30px;border: none; max-width: 100%;height: auto;}
+.tag43{font-size: 36px; font-weight: 400; color: #7EB693;margin-bottom: 8px;}
+.tag44{font-size: 50px; font-weight: 800; color: #FFFFFF;margin-bottom: 8px;}
+
+
+/* bolim6 */
+.bolim6{background-image: url(../../assets/rasm11.png);width: 100%;height: 323px;background-repeat: no-repeat;margin-top: 141px;display: flex;justify-content: center;   background-position: center;}
+.wrapemail{display: flex;gap: 10px;}
+.wrap-input{display: flex;align-items: center; justify-content: center;gap: 40px; align-items: center;  max-width: 1200px;   width: 100%;  padding: 0 30px;}
+.tag46{font-size: 50px; font-weight: 800; color: #FFFFFF; line-height: 100%;}
+.wrapemail input{padding: 28px 174px 31px 23px;border-radius: 16px; border: none;color: #ABABAB; font-size: 18px; font-weight: 400;  outline: none;}
+.button5{padding: 28px 64px 29px 64px ; background-color:#274C5B; border-radius: 16px;border: none; font-size: 20px; font-weight: 700; color: #FFFFFF;  cursor: pointer;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .bolim1 {
+    height: 300px;
+  }
+
+  .tag31 {
+    font-size: 32px;
+  }
+  .bolim2 {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .tag32 {
+    font-size: 26px;
+  }
+
+  .tag33 {
+    font-size: 32px;
+    line-height: 120%;
+  }
+
+  .tag34,
+  .tag35 {
+    font-size: 16px;
+  }
+
+  .oldwrapicons {
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 30px;
+  }
+  .old1 {
+    justify-content: center;
+  }
+
+  .tag36 {
+    font-size: 20px;
+  }
+
+  .button2 {
+    display: block;
+    margin: 25px auto 0;
+  }
+  .bolim3 {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .bolim3 img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .tag33 {
+    font-size: 32px;
+  }
+
+  .tag34 {
+    font-size: 16px;
+  }
+
+  .wrapdiv {
+    justify-content: center;
+    padding: 18px 25px;
+    border-radius: 35px;
+  }
+
+  .tag40 {
+    font-size: 18px;
+  }
+  .threewrap {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .three,
+  .three1 {
+    width: 100%;
+    max-width: 360px;
+  }
+
+  .old-wrap {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .wrap-icon {
+    justify-content: center;
+  }
+
+  .tag41 {
+    font-size: 22px;
+  }
+  .tag44 {
+    font-size: 32px;
+  }
+
+  .tag43 {
+    font-size: 26px;
+  }
+
+  .four-card-wrap {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .four-card {
+    width: 100%;
+    max-width: 340px;
+  }
+
+  .tag42 {
+    font-size: 20px;
+  }
+   .wrap-input {
+    flex-direction: column;
+    text-align: center;
+    gap: 25px;
+  }
+
+  .wrapemail {
+    flex-direction: column;
+    width: 100%;
+    max-width: 360px;
+  }
+
+  .wrapemail input {
+    width: 100%;
+  }
+
+  .button5 {
+    width: 100%;
+  }
+
+  .tag46 {
+    font-size: 32px;
+  }
+  .bolim4{
+    padding: 0;
+    border: 0;
+    margin: 0;
+  }
+  .bolim5{
+    padding: 0;
+    border: 0;
+    margin: 0;
+  }
+}

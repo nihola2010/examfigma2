@@ -1,0 +1,67 @@
+
+.users{
+    width: 100%;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.users form{
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.wrapinput{
+    display: flex;
+    gap: 30px;
+}
+
+.wrapinput input{
+    flex: 1;
+    border: 1px solid #7EB693;
+    padding: 20px;
+    border-radius: 16px;
+    font-size: 16px;
+    width: 100%;
+    padding: 20px 150px;
+}
+
+.singleinput{
+    width: 93%;
+    min-height: 80px;
+    padding: 20px;
+    border: 1px solid #7EB693;
+    border-radius: 16px;
+    resize: none;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.button45{
+    width: 200px;
+    padding: 18px;
+    background-color: #274C5B;
+    border-radius: 16px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+@media (max-width: 768px){
+
+  .wrapinput{
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .button45{
+    width: 100%;
+  }
+  .singleinput{
+    width: 100%;
+  }
+
+}
